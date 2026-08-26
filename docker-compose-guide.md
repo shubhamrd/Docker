@@ -271,7 +271,7 @@ services:
 Start the application by passing both files. Compose will merge them at startup:
 
 ```bash
-docker compose -f compose.yaml -f infra.yaml up
+docker compose -f compose.yaml -f infra.yaml up -d
 ```
 
 Stop the stack before moving on:
